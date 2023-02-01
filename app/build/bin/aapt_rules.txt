@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:12
+-keep class com.rabbi.randomcolor.Applications { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.rabbi.randomcolor.DebugActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.rabbi.randomcolor.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.rabbi.randomcolor.SplashActivity { <init>(...); }
+

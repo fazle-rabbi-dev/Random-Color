@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:weightSum="6"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="6"
+		android:weightSum="6">
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.0"
+			android:background="#FF18E9CB"
+			android:weightSum="2"
+			android:id="@+id/color1">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="#fff4a5"
+				android:textColor="#FF000000"
+				android:textSize="15sp"
+				android:layout_margin="10dp"
+				android:id="@+id/color1_text"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Copy"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:textSize="15sp"
+				android:textColor="#FF120F2D"
+				android:id="@+id/copy1"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.0"
+			android:background="#FF18E9CB"
+			android:weightSum="2"
+			android:id="@+id/color2">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="#fff4a5"
+				android:textColor="#FF110D30"
+				android:textSize="15sp"
+				android:layout_margin="10dp"
+				android:id="@+id/color2_text"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Copy"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:textSize="15sp"
+				android:textColor="#FF120F2D"
+				android:id="@+id/copy2"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.0"
+			android:background="#FF18E9CB"
+			android:weightSum="2"
+			android:id="@+id/color3">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="#fff4a5"
+				android:textColor="#FF110D30"
+				android:textSize="15sp"
+				android:layout_margin="10dp"
+				android:id="@+id/color3_text"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Copy"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:textSize="15sp"
+				android:textColor="#FF120F2D"
+				android:id="@+id/copy3"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.0"
+			android:background="#FF18E9CB"
+			android:weightSum="2"
+			android:id="@+id/color4">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="#fff4a5"
+				android:textColor="#FF110D30"
+				android:textSize="15sp"
+				android:layout_margin="10dp"
+				android:id="@+id/color4_text"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Copy"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:textSize="15sp"
+				android:textColor="#FF120F2D"
+				android:id="@+id/copy4"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.0"
+			android:background="#FF18E9CB"
+			android:weightSum="2"
+			android:id="@+id/color5">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="#fff4a5"
+				android:textColor="#FF110D30"
+				android:textSize="15sp"
+				android:layout_margin="10dp"
+				android:id="@+id/color5_text"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Copy"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:textSize="15sp"
+				android:textColor="#FF120F2D"
+				android:id="@+id/copy5"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.0"
+			android:background="#FF18E9CB"
+			android:weightSum="2"
+			android:id="@+id/color6">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="#fff4a5"
+				android:textColor="#FF110D30"
+				android:textSize="15sp"
+				android:layout_margin="10dp"
+				android:id="@+id/color6_text"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Copy"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:textSize="15sp"
+				android:textColor="#FF120F2D"
+				android:id="@+id/copy6"
+				android:background="#FFFFFFFF"
+				android:paddingRight="2dp"
+				android:paddingLeft="2dp"/>
+
+			<ImageView
+				android:src="@drawable/ic_fingerprint"
+				android:padding="10dp"
+				android:id="@+id/generateBtn"
+				android:layout_height="60dp"
+				android:layout_width="60dp"
+				android:background="@drawable/circle"
+				android:layout_marginRight="10dp"
+				android:layout_alignParentEnd="true"
+				android:layout_alignParentBottom="true"
+				android:layout_marginBottom="5dp"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
